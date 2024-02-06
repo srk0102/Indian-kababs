@@ -1,9 +1,17 @@
+import { useEffect } from 'react'
 
-import { NavBar } from '../components'
+import { Footer, NavBar } from '../components'
 
 export const ErrorPage = () => {
+
+  useEffect(() => {
+    document.title = 'Error Page';
+  }, []);
+
+
   return (
     <>
+      <NavBar/>
       <main className="grid min-h-full place-items-center bg-gray-800 px-6 py-24 sm:py-32 lg:px-8 h-screen">
         <div className="text-center">
           <p className="text-base font-semibold text-green-600">404</p>
@@ -22,6 +30,7 @@ export const ErrorPage = () => {
           </div>
         </div>
       </main>
+      <Footer/>
     </>
   )
 }

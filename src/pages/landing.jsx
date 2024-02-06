@@ -1,9 +1,14 @@
-import React from 'react'
+import { Footer, NavBar } from '../components'
 
 export const Landing = () => {
+
   return (
-    <div>
-      landing page
-    </div>
+    <>
+      <NavBar />
+      <div>
+        landing page
+      </div>
+      <Footer />
+    </>
   )
 }

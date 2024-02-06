@@ -13,7 +13,7 @@ function App() {
           <Route
           path='/'
           exact
-          element={<Landing/>}
+            element={<Landing/>}
           />
           <Route
           path='/signin'
