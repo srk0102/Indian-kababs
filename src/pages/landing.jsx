@@ -2,6 +2,8 @@ import React from 'react'
 
 export const Landing = () => {
   return (
-    <div>landing</div>
+    <div>
+      landing page
+    </div>
   )
 }

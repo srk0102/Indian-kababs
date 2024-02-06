@@ -2,7 +2,7 @@ import './App.css'
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import {Landing, AboutUs, Contact, ErrorPage} from '../pages'
+import {Landing, AboutUs, Contact, ErrorPage, SignIn} from '../pages'
 
 function App() {
 
@@ -14,6 +14,11 @@ function App() {
           path='/'
           exact
           element={<Landing/>}
+          />
+          <Route
+          path='/signin'
+          exact
+          element={<SignIn/>}
           />
           <Route
           path='/about-us'
