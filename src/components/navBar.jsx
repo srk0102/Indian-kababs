@@ -2,7 +2,7 @@ import { useState } from "react"
 
 export const NavBar = () => {
 
-  const[SmallNav, setSmallNav] = useState(true)
+  const[SmallNav, setSmallNav] = useState(false)
 
   return (
     <>

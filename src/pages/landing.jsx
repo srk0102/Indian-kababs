@@ -1,6 +1,25 @@
-import { Footer, NavBar } from '../components'
+import { Footer, NavBar, Slider } from '../components'
 
 export const Landing = () => {
+
+ const sliderData = [
+    {
+      image: "https://i.ibb.co/58Mq6Mb/slide1.jpg",
+      heading: "Slide One",
+      desc: "This is the description of slide one Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
+    },
+    {
+      image: "https://i.ibb.co/8gwwd4Q/slide2.jpg",
+      heading: "Slide Two",
+      desc: "This is the description of slide two Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
+    },
+    {
+      image: "https://i.ibb.co/8r7WYJh/slide3.jpg",
+      heading: "Slide Three",
+      desc: "This is the description of slide three Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
+    },
+  ];
+
 
   return (
     <>
@@ -36,8 +55,6 @@ export const Landing = () => {
             />
           </div>
         </div>
-        
-        
         <div className="flex md:flex-row flex-col justify-around">
           <div className="h-full p-20 justify-self-center md:self-center basis-1/2">
             <h1 className="text-center text-xl sm:text-2xl bg-transparent">
